@@ -1,0 +1,18 @@
+https://omegaup.com/arena/problem/Tipos-de-Triangulos/
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+    if (a == b && b == c) {
+        cout << "equilatero";
+    } else if (a == b || b == c || a == c) {
+        cout << "isosceles";
+    } else {
+        cout << "escaleno";
+    }
+    return 0;
+}
