@@ -1,0 +1,27 @@
+https://omegaup.com/arena/problem/Anyos-con-dos-y-cuatro-digitos/#problems
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int dia, mes, anio;
+    char slash;
+    string fecha;
+    while (cin >> fecha) {
+        dia = stoi(fecha.substr(0, fecha.find('/')));
+        mes = stoi(fecha.substr(fecha.find('/') + 1, fecha.find('/', fecha.find('/') + 1)));
+        anio = stoi(fecha.substr(fecha.find('/', fecha.find('/') + 1) + 1));
+        if (anio > 74) {
+            anio += 1900;
+        }
+        else if (anio < 74) {
+            anio += 2000;
+        }
+        else {
+            anio += 1900;
+        }
+        cout << dia << "/" << mes << "/" << anio << endl;
+    }
+    return 0;
+}
