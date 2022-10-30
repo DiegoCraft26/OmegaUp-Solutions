@@ -1,0 +1,23 @@
+https://omegaup.com/arena/problem/Costales-de-tierra/#problems
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int peso;
+    cin >> peso;
+    if (peso <= 100) {
+        cout << "Tipo a";
+    } else if (peso <= 150) {
+        cout << "Tipo b";
+    } else if (peso <= 3500) {
+        cout << "Tipo c";
+    } else if (peso <= 80100) {
+        cout << "Tipo d";
+    } else {
+        cout << "Tipo e";
+    }
+    return 0;
+}
