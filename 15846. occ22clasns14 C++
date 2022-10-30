@@ -1,0 +1,19 @@
+https://omegaup.com/arena/problem/occ22clasns14/#problems/occ22clasns14/show-run:e4c8938e3ddf81ad4dff0fb0989b8a42
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+    int i = 1;
+    while (i * i < n)
+    {
+        i++;
+    }
+    cout <<i * i << endl;
+    return 0;
+}
