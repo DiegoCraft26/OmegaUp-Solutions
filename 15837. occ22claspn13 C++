@@ -1,0 +1,16 @@
+https://omegaup.com/arena/problem/occ22claspn13/#problems
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+    if (b - a == c - b) {
+        cout << "Si " << b - a;
+    } else {
+        cout << "No";
+    }
+    return 0;
+}
