@@ -1,0 +1,16 @@
+https://omegaup.com/arena/problem/Tesoro-2/#problems
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, negras, blancas, golpes;
+    cin >> n;
+    for(int i = 0; i < n; i++){
+        cin >> negras >> blancas;
+        golpes = (negras * 2) + blancas;
+        cout << golpes << endl;
+    }
+    return 0;
+}
