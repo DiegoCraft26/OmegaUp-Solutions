@@ -1,0 +1,631 @@
+https://omegaup.com/arena/problem/BOB-Karel/
+
+
+class program {
+    program () {
+        
+        while(nextToABeeper){
+        pickbeeper();
+        }
+        
+        while(!facingEast)turnleft();
+        move();
+        
+        if(nextToABeeper){  //1 beeper
+        pickbeeper();
+        	if(nextToABeeper){  //3 beeper
+            iterate(2)pickbeeper();
+            	if(nextToABeeper){  //5 beeper
+                iterate(2)pickbeeper();
+                	if(nextToABeeper){  //7 beeper
+                    iterate(2)pickbeeper();
+                    	if(nextToABeeper){  //9 beeper
+                        iterate(2)pickbeeper();
+                        	if(nextToABeeper){  //11 beeper
+                            iterate(2)pickbeeper();
+                            	if(nextToABeeper){  //13 beeper
+                                iterate(2)pickbeeper();
+                                	if(nextToABeeper){  //15 beeper
+                                    iterate(2)pickbeeper();
+                                    	if(nextToABeeper){ //17 beeper
+                                        iterate(2)pickbeeper();
+                                        	if(nextToABeeper){  //19 beeper
+                                            iterate(2)pickbeeper();
+                                            	if(nextToABeeper){  //21 beeper
+                                                iterate(2)pickbeeper();
+                                                	if(nextToABeeper){  //23 beeper
+                                                    iterate(2)pickbeeper();
+                                                    	if(nextToABeeper){  //25 beeper
+                                                        iterate(2)pickbeeper();
+                                                        	if(nextToABeeper){  //27 beeper
+                                                            iterate(2)pickbeeper();
+                                                            }
+                                                            else{ //25 beeper
+                                                            turnleft();
+                                                            }
+                                                        }
+                                                        else{ //23 beeper
+                                                        turnleft();
+                                                        }
+                                                    }
+                                                    else{ //21 beeper
+                                                    turnleft();
+                                                    }
+                                                }
+                                                else{ //19 beeper
+                                                
+                                                move();
+turnleft();
+move();
+iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+move();
+turnleft();
+												iterate(19){
+putbeeper();
+move();
+} 
+												turnleft();
+move();
+turnleft();
+move();
+move();
+												iterate(17){
+putbeeper();
+move();
+} 
+												iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+												iterate(15){
+putbeeper();
+move();
+} 
+												turnleft();
+move();
+turnleft();
+move();
+move();
+												iterate(13){
+putbeeper();
+move();
+} 
+												iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+												iterate(11){
+putbeeper();
+move();
+} 
+												turnleft();
+move();
+turnleft();
+move();
+move();
+												iterate(9){
+putbeeper();
+move();
+} 
+												iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+												iterate(7){
+putbeeper();
+move();
+} 
+												turnleft();
+move();
+turnleft();
+move();
+move();
+												iterate(5){
+putbeeper();
+move();
+} 
+												iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+												iterate(3){
+putbeeper();
+move();
+} 
+												turnleft();
+move();
+turnleft();
+move();
+move();
+												iterate(1){
+putbeeper();
+move();
+} 
+
+
+                                                
+                                                
+                                                }
+                                            }
+                                            else{ //17 beeper
+                                            
+                                            move();
+turnleft();
+move();
+iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+move();
+turnleft();
+											iterate(17){
+putbeeper();
+move();
+} 
+											turnleft();
+move();
+turnleft();
+move();
+move();
+											iterate(15){
+putbeeper();
+move();
+} 
+											iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+											iterate(13){
+putbeeper();
+move();
+} 
+											turnleft();
+move();
+turnleft();
+move();
+move();
+											iterate(11){
+putbeeper();
+move();
+} 
+											iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+											iterate(9){
+putbeeper();
+move();
+} 
+											turnleft();
+move();
+turnleft();
+move();
+move();
+											iterate(7){
+putbeeper();
+move();
+} 
+											iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+											iterate(5){
+putbeeper();
+move();
+} 
+											turnleft();
+move();
+turnleft();
+move();
+move();
+											iterate(3){
+putbeeper();
+move();
+} 
+											iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+											iterate(1){
+putbeeper();
+move();
+} 
+                                            
+                                            }
+                                        }
+                                        else{ //15 beeper
+                                        
+                                        move();
+turnleft();
+move();
+iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+move();
+turnleft();
+										iterate(15){
+putbeeper();
+move();
+} 
+										turnleft();
+move();
+turnleft();
+move();
+move();
+										iterate(13){
+putbeeper();
+move();
+} 
+										iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+										iterate(11){
+putbeeper();
+move();
+} 
+										turnleft();
+move();
+turnleft();
+move();
+move();
+										iterate(9){
+putbeeper();
+move();
+} 
+										iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+										iterate(7){
+putbeeper();
+move();
+} 
+										turnleft();
+move();
+turnleft();
+move();
+move();
+										iterate(5){
+putbeeper();
+move();
+} 
+										iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+										iterate(3){
+putbeeper();
+move();
+} 
+										turnleft();
+move();
+turnleft();
+move();
+move();
+										iterate(1){
+putbeeper();
+move();
+} 
+                                        
+                                        
+                                        }
+                                    }
+                                    else{ //13 beeper
+                                    
+                                    move();
+turnleft();
+move();
+iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+move();
+turnleft();
+									iterate(13){
+putbeeper();
+move();
+} 
+									turnleft();
+move();
+turnleft();
+move();
+move();
+									iterate(11){
+putbeeper();
+move();
+} 
+									iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+									iterate(9){
+putbeeper();
+move();
+} 
+									turnleft();
+move();
+turnleft();
+move();
+move();
+									iterate(7){
+putbeeper();
+move();
+} 
+									iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+									iterate(5){
+putbeeper();
+move();
+} 
+									turnleft();
+move();
+turnleft();
+move();
+move();
+									iterate(3){
+putbeeper();
+move();
+} 
+									iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+									iterate(1){
+putbeeper();
+move();
+} 
+
+                                    
+                                    
+                                    
+                                    }
+                                }
+                                else{  //11 beeper
+                                
+                                move();
+								turnleft();
+								move();
+								iterate(3)turnleft();
+								move();
+								iterate(3)turnleft();
+								move();
+								turnleft();
+                                
+                                iterate(11){
+putbeeper();
+move();
+} 
+
+								turnleft();
+move();
+turnleft();
+move();
+move();
+
+								iterate(9){
+putbeeper();
+move();
+} 
+								iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+
+								iterate(7){
+putbeeper();
+move();
+} 
+								turnleft();
+move();
+turnleft();
+move();
+move();
+								iterate(5){
+putbeeper();
+move();
+} 
+								iterate(3)turnleft();
+move();
+iterate(3)turnleft();
+iterate(2)move();
+								iterate(3){
+putbeeper();
+move();
+} 
+								turnleft();
+move();
+turnleft();
+move();
+move();
+								iterate(1){
+putbeeper();
+move();
+} 
+
+
+                                
+                                }
+                            }
+                            else{ //9 beeper
+                            
+                            move();
+                	turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	move();
+                	turnleft();
+                    
+                    
+                    iterate(9){
+                	putbeeper();
+                	move();
+                	} 
+                    
+                    turnleft();
+                    move();
+                    turnleft();
+                    move();
+                    move();
+                    
+                    iterate(7){
+                    putbeeper();
+                    move();
+                    }
+                           
+                            iterate(3)turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	iterate(2)move();
+                	
+                    
+                    iterate(5){
+                	putbeeper();
+                	move();
+                	}
+                    
+                    turnleft();
+                    move();
+                    turnleft();
+                    move();
+                    move();
+                    
+                    
+                    iterate(3){
+                putbeeper();
+                move();
+                }
+                    
+                    
+                    iterate(3)turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	iterate(2)move();
+                	putbeeper();
+                           
+                            }
+                        }
+                        else{ //7 beeper
+                        
+                        move();
+                	turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	move();
+                	turnleft();
+                        
+                        iterate(7){
+                	putbeeper();
+                	move();
+                	} 
+                        
+                        turnleft();
+                    move();
+                    turnleft();
+                    move();
+                    move();
+                    
+                    iterate(5){
+                    putbeeper();
+                    move();
+                    }
+                        
+                        iterate(3)turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	iterate(2)move();
+                	
+                        
+                        iterate(3){
+                    putbeeper();
+                    move();
+                    }
+                    
+                    turnleft();
+                move();
+                turnleft();
+                iterate(2)move();
+                putbeeper();
+                       
+                         
+                        
+                        }
+                    }
+                    else{ //5 beeper
+                    
+                    move();
+                	turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	move();
+                	turnleft();
+                    
+                    iterate(5){
+                	putbeeper();
+                	move();
+                	} 
+                    
+                    turnleft();
+                    move();
+                    turnleft();
+                    move();
+                    move();
+                    
+                    iterate(3){
+                    putbeeper();
+                    move();
+                    }
+                    
+                    iterate(3)turnleft();
+                	move();
+                	iterate(3)turnleft();
+                	iterate(2)move();
+                	putbeeper();
+                
+                    
+                    
+                    }
+                }
+                else{  //3 beeper
+                                         
+                move();
+                turnleft();
+                move();
+                iterate(3)turnleft();
+                move();
+                iterate(3)turnleft();
+                move();
+                turnleft();
+                
+                iterate(3){
+                putbeeper();
+                move();
+                }
+                
+                turnleft();
+                move();
+                turnleft();
+                iterate(2)move();
+                putbeeper();
+                
+                
+                            
+                }
+            }
+            else{ //1 beeper
+            turnoff();
+            }
+        }
+        
+        
+        turnoff();
+    }
+}
