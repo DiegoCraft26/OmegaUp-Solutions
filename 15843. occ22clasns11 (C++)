@@ -1,0 +1,16 @@
+https://omegaup.com/arena/problem/occ22clasns11/#problems
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1, num2;
+    float promedio;
+    cin >> num1;
+    cin >> num2;
+    promedio = (num1 + num2) / 2.0;
+    cout <<promedio << endl;
+    return 0;
+}
