@@ -1,0 +1,7 @@
+https://omegaup.com/arena/problem/Batalla-espacial/#problems
+
+def sumar ():
+    n = int(input())
+    print(n*2+1)
+
+sumar()
