@@ -1,0 +1,14 @@
+https://omegaup.com/arena/problem/Minutos/#problems
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int minutos, segundos;
+    cin >> minutos;
+    segundos = minutos * 60;
+    cout <<segundos << endl;
+    return 0;
+}
