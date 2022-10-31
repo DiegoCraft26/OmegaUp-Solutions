@@ -1,0 +1,35 @@
+https://omegaup.com/arena/problem/occ22sfinpn24/#problems
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int fila, columna, posiblesMovimientos = 0;
+    cin >> fila;
+    cin >> columna;
+    if (fila > 0 && fila < 9 && columna > 0 && columna < 9)
+    {
+        if (fila - 2 > 0 && columna - 1 > 0)
+            posiblesMovimientos++;
+        if (fila - 2 > 0 && columna + 1 < 9)
+            posiblesMovimientos++;
+        if (fila - 1 > 0 && columna - 2 > 0)
+            posiblesMovimientos++;
+        if (fila - 1 > 0 && columna + 2 < 9)
+            posiblesMovimientos++;
+        if (fila + 1 < 9 && columna - 2 > 0)
+            posiblesMovimientos++;
+        if (fila + 1 < 9 && columna + 2 < 9)
+            posiblesMovimientos++;
+        if (fila + 2 < 9 && columna - 1 > 0)
+            posiblesMovimientos++;
+        if (fila + 2 < 9 && columna + 1 < 9)
+            posiblesMovimientos++;
+        cout <<posiblesMovimientos <<endl;
+    }
+    else
+        cout << "La posicion introducida no es valida" << endl;
+    return 0;
+}
