@@ -1,0 +1,38 @@
+https://omegaup.com/arena/problem/La-cancion-de-la-sopa-de-tortuga/
+
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+    vector<string> tortugas(n);
+    for (int i = 0; i < n; i++)
+    {
+        cin >> tortugas[i];
+    }
+    string canto = tortugas[0];
+    for (int i = 1; i < n; i++)
+    {
+        string canto2 = "";
+        for (int j = 0; j < canto.size(); j++)
+        {
+            if (canto[j] == 'h')
+            {
+                canto2 += "nh";
+            }
+            else
+            {
+                canto2 += "hh";
+            }
+        }
+        canto = canto2;
+    }
+    cout << canto << endl;
+    return 0;
+}
