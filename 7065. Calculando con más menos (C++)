@@ -1,0 +1,25 @@
+https://omegaup.com/arena/problem/Calculando-con-masmenos/#problems/Calculando-con-masmenos/show-run:75a5546636804327a4f4af648f1182b9
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, c;
+    cin >> a >> b >> c;
+    if (b == 0) {
+        cout << "indefinido" << endl;
+    }
+    else {
+        double x1 = (a / b) + c;
+        double x2 = (a / b) - c;
+        if (x1 == x2) {
+            cout << x1 << endl;
+        }
+        else {
+            cout << x1 << " " << x2 << endl;
+        }
+    }
+    return 0;
+}
