@@ -1,0 +1,22 @@
+https://omegaup.com/arena/problem/Orden-Creciente/#problems
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, a, b, c;
+    cin >> n;
+    cin >> a >> b;
+    n -= 2;
+    while (n--) {
+        cin >> c;
+        if (c <= b) {
+            cout << "NO";
+            return 0;
+        }
+        b = c;
+    }
+    cout << "SI";
+    return 0;
+}
