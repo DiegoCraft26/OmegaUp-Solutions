@@ -1,0 +1,13 @@
+https://omegaup.com/arena/problem/Cuantos-dias-tiene-febrero/#problems
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    cout << (a % 4 == 0 and a % 100 != 0 or a % 400 == 0 ? 29 : 28) << " ";
+    cout << (b % 4 == 0 and b % 100 != 0 or b % 400 == 0 ? 29 : 28) << " ";
+    cout << (c % 4 == 0 and c % 100 != 0 or c % 400 == 0 ? 29 : 28) << " ";
+    cout << (d % 4 == 0 and d % 100 != 0 or d % 400 == 0 ? 29 : 28) << endl;
+}
